@@ -662,12 +662,12 @@ Single slide style
 
 .cd-hero-slider li:nth-of-type(2) {
   background-color: #3d4952;
-  background-image: url("images/Branding.Marketing.jpg");
+  background-image: url("images/bg1.png");
 }
 
 .cd-hero-slider li:nth-of-type(3) {
   background-color: #586775;
-  background-image: url("images/signage-window-graphic-vehicle-wrap-one-way-vision.png");
+  background-image: url("images/Branding.Marketing.jpg");
 }
 .cd-hero-slider li:nth-of-type(4) {
   background-color: #2c343b;
@@ -805,38 +805,7 @@ Single slide style
   background-color: #161a1e;
 }
 
-@media only screen and (min-width: 768px) {
-  .cd-hero-slider .cd-full-width,
-  .cd-hero-slider .cd-half-width {
-    padding-top: 100px;
-  }
-  .cd-hero-slider .cd-bg-video-wrapper {
-    display: block;
-  }
-  .cd-hero-slider .cd-half-width {
-    width: 45%;
-  }
-  .cd-hero-slider .cd-half-width:first-of-type {
-    left: 5%;
-  }
-  .cd-hero-slider .cd-half-width:nth-of-type(2) {
-    right: 5%;
-    left: auto;
-  }
-  .cd-hero-slider .cd-img-container {
-    display: block;
-  }
-  .cd-hero-slider h2,
-  .cd-hero-slider p {
-    max-width: 520px;
-  }
-  .cd-hero-slider h2 {
-    font-size: 2.4em;
-    font-weight: 300;
-  }
-  .cd-hero-slider .cd-btn {
-    font-size: 1.4rem;
-  }
+
 
 @media only screen and (min-width: 1170px) {
   .cd-hero-slider .cd-full-width,
@@ -1285,4 +1254,4 @@ Main Components
 .no-touch.no-preserve-3d .cd-floating-background {
   /* we target browsers that don't support preserve-3d and show just a standard image - no effect visible */
   position: relative;
-}}
+}
